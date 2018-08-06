@@ -1,0 +1,14 @@
+* {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+@import './listing/listing';
+@import './pagination/Pagination';
+@import './realstate-card/Card';
+@import './tags/TagsComp';

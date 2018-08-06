@@ -1,0 +1,43 @@
+{
+  "name": "schibsted-coding-challenge",
+  "version": "1.0.0",
+  "description": "Excersive for schibted coding challenge",
+  "main": "./webpack/webpack.common.js",
+  "scripts": {
+    "start": "webpack-dev-server  --hot --inline --open --config ./webpack/webpack.dev.js",
+    "build": "webpack --config ./webpack/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franco Manzur",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "eslint": "^4.18.1",
+    "favicons-webpack-plugin": "^0.0.7",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1",
+     "cors": "^2.8.4"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-custom-element-classes",
+      "transform-runtime",
+      "transform-decorators-legacy"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.card__info {
+    &.tag-container
+    span {
+        &.tags {
+            margin: 0 15px 0 0;
+        }
+    }
+}
