@@ -1,4 +1,4 @@
-## Schibted challenge
+## Listing app with custom web components
 ```
 Open one terminal instance.
 
